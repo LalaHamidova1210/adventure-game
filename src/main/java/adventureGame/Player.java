@@ -1,6 +1,6 @@
 package adventureGame;
 
-public class Player {
+public class Player extends Game {
 private int id;
 private String name;
 private int damage;
