@@ -1,4 +1,4 @@
-package AdventureGame;
+package adventureGame;
 
 public class Archer extends Player {
 }
