@@ -1,6 +1,6 @@
 package adventureGame;
 
-public class Player extends Game {
+public class Player  {
 private int id;
 private String name;
 private int damage;
@@ -14,6 +14,8 @@ private double money;
         this.health = health;
         this.money = money;
     }
+
+
 
     public int getId() {
         return id;
@@ -53,5 +55,15 @@ private double money;
 
     public void setMoney(double money) {
         this.money = money;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", damage=" + damage +
+                ", health=" + health +
+                ", money=" + money ;
     }
 }
